@@ -8,6 +8,9 @@ const T = new Twitter(config);
 const likeParam = (argv.l)?`#${argv.l}`:null;
 const followParam = (argv.f)?`#${argv.f}`:null;
 
+if(likeParam == null && followParam == null){
+    process.exit();
+}
 const params = {
     q: ((likeParam)?likeParam:followParam),
     count: 2,
