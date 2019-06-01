@@ -1,5 +1,4 @@
 # Twitter bot using Node.js
----
 **A twitter bot that likes a tweet or follows someone back when they tweet using a specific hashtag**
 **It uses the npm modules, 'twitter and yargs'**
 ### Commands
